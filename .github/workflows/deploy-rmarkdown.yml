@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
 
+# Give the workflow permission to push to the repo
+permissions:
+  contents: write
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -12,7 +16,7 @@ jobs:
       # 1. Check out your repo
       - uses: actions/checkout@v4
 
-      # 2. Install Pandoc (fixes the pandoc error)
+      # 2. Install Pandoc
       - name: Set up Pandoc
         uses: r-lib/actions/setup-pandoc@v2
         with:
@@ -26,7 +30,7 @@ jobs:
 
       # 4. Install needed R packages
       - name: Install R packages
-        run: Rscript -e 'install.packages(c("rmarkdown"))'
+        run: Rscript -e 'install.packages("rmarkdown")'
 
       # 5. Build the R Markdown website (creates docs/ html files)
       - name: Build site
@@ -38,4 +42,5 @@ jobs:
         with:
           branch: gh-pages
           folder: docs
+          clean: true
 
