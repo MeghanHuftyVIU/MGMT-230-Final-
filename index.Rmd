@@ -4,8 +4,6 @@ output: html_document
 ---
 
 
-# Hello
-
 Welcome to my portfolio website! My name is Meghan Hufty, and I am a student focusing on data analytics, R programming, and business intelligence. This website showcases my academic work and growing experience in data analysis.
 
 # Skills & Focus Areas 
