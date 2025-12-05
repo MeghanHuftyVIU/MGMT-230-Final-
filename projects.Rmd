@@ -3,8 +3,6 @@ title: "Projects"
 output: html_document
 ---
 
-# Projects
-
 Below are two example projects from my coursework that use R for business analytics and data exploration.
 
 
