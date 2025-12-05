@@ -1,0 +1,29 @@
+---
+title: "About Me"
+output: html_document
+---
+
+I am currently a second year Accounting student. I enjoy working with real-world datasets and using R to uncover patterns, summarize information, and support decision-making. Throughout my coursework, I have gained experience communicating insights clearly and presenting work in professional formats using R Markdown and GitHub Pages.
+
+
+# Technical Skills & Tools
+
+R programming (data frames, filtering, summarizing, plotting)
+
+ggplot2 for visualizations
+
+R Markdown for reporting and website creation
+
+Git & GitHub for version control and deployment
+
+Experience with open-data sources and CSV datasets
+
+Basic knowledge of business analytics concepts
+
+
+# Contact Information
+
+Email: mhufty47290@gmail.com
+
+GitHub: https://github.com/MeghanHuftyVIU
+

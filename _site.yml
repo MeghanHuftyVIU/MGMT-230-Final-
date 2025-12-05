@@ -1,0 +1,22 @@
+---
+title: "Website Deployment Reflection"
+author: "Meghan Hufty, 656650843"
+date: "`r Sys.Date()`"
+output_dir: "docs"
+
+navbar:
+  title: "My Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Projects"
+      href: projects.html
+
+output:
+  html_document:
+    theme: cosmo
+---
+
+

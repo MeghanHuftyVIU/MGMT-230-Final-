@@ -1,0 +1,27 @@
+---
+title: "Home"
+output: html_document
+---
+
+
+# Hello
+
+Welcome to my portfolio website! My name is Meghan Hufty, and I am a student focusing on data analytics, R programming, and business intelligence. This website showcases my academic work and growing experience in data analysis.
+
+# Skills & Focus Areas 
+
+
+Data cleaning and preparation
+
+Data visualization using ggplot2
+
+R Markdown for reports and websites
+
+Business insight generation
+
+Working with open-data sources
+
+Basic Git & GitHub workflow
+
+
+# Use the navigation bar above to learn more About me or explore my Projects page.
